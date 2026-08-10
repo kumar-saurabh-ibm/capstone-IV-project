@@ -1,0 +1,5 @@
+pandas
+duckdb
+faker
+pytest
+streamlit

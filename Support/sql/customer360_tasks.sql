@@ -1,0 +1,12 @@
+-- Customer 360 Student Tasks
+-- Complete these tasks using DuckDB SQL.
+
+-- 1. Find duplicate customers in bronze_customers.
+-- 2. Create silver_customers_dedup.
+-- 3. Calculate total_orders and total_spend per customer.
+-- 4. Calculate support ticket metrics.
+-- 5. Calculate web engagement metrics.
+-- 6. Build gold_customer_360.
+-- 7. Add customer_segment.
+-- 8. Add customer_activity_status.
+-- 9. Write at least five quality checks.
