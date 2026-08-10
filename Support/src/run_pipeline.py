@@ -13,34 +13,42 @@ print("Customer 360 starter pipeline")
 print("TODO: implement Bronze, Silver and Gold transformations.")
 
 # TODO 1: create Bronze tables from CSV files
-def crete_bronze_table(file_name, table_name):
-    try:
-        table_path = file_name
-        df = pd.read_csv(table_path, sep=",", header=0)
-        df.to_sql(table_name, con=bronze_con, index=False)
+def create_bronze_table(file_path, table_name, connection):
+    """Load a CSV file into a Bronze database table."""
 
-        # verify if the table is created or not
-        query = f'select * from {table_name} limit 5;'
-        df = pd.read_sql(query, con=bronze_con)
-        print(df)
-    except Exception as e:
-        print(f"Some error occured : {e}")
+    df = pd.read_csv(file_path)
 
-# read all the files from the source and convert it into bronze db
-def create_bronze_DB(source_path):
+    df.to_sql(
+        name=table_name,
+        con=connection,
+        index=False,
+        if_exists="replace"
+    )
+
+    print(f"Bronze table created: {table_name}")
+
+
+def create_bronze_db(source_path, connection):
+    """Create Bronze tables from all CSV files in the source directory."""
+
     source_path = Path(source_path)
 
-    for file_path in source_path.iterdir():
-        if file_path.is_file():
-            try:
-                table_name = remove_extension(file_path)
-                crete_bronze_table(file_path, table_name)
-            except Exception as e:
-                print(f"Some error occured in create_bronze_DB : {e}")
+    for file_path in source_path.glob("*.csv"):
+        table_name = file_path.stem
+
+        try:
+            create_bronze_table(
+                file_path,
+                table_name,
+                connection
+            )
+
+        except Exception as e:
+            print(f"Failed to process {file_path.name}: {e}")
 
 
-## Run this script to create bronze DB from the source database
-create_bronze_DB(SOURCE)
+# Run the script
+create_bronze_db(SOURCE, bronze_con)
 
 # TODO 2: create Silver cleaned/deduplicated tables
 # TODO 3: create Gold customer metrics
