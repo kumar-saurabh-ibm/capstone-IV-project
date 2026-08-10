@@ -1,0 +1,122 @@
+customer_id,first_name,last_name,email,phone,state,registration_date,customer_status
+C0001,Avi,Issac,bakshianvi@example.org,2181960013,Delhi,2026-04-18,ACTIVE
+C0002,Hemangini,Lalla,ckannan@example.net,0265423511,Delhi,2025-11-02,ACTIVE
+C0003,Lajita,Mall,sharafjeet@example.com,8495931034,Karnataka,2026-03-21,ACTIVE
+C0004,Ekta,Bhalla,kpatla@example.com,3419283276,Delhi,2024-07-13,ACTIVE
+C0005,Adya,Sangha,AZADMUTTI@EXAMPLE.COM,1395376724,Kerala,2025-06-04,ACTIVE
+C0006,Zayan,Apte,opathak@example.org,1012269166,Tamil Nadu,2026-05-07,ACTIVE
+C0007,Rushil,Dua,yadavamara@example.net,1462704828,Karnataka,2025-03-11,ACTIVE
+C0008,Jeremiah,Dave,neel88@example.org,7015430391,Kerala,2026-01-19,INACTIVE
+C0009,Hamsini,Bail,qgandhi@example.net,,Karnataka,2025-05-08,ACTIVE
+C0010,Urvashi,Kibe,thomasamble@example.org,3105183473,Tamil Nadu,2024-06-24,ACTIVE
+C0011,Ranveer,Yadav,mray@example.org,6566701065,Delhi,2025-06-04,ACTIVE
+C0012,Vedika,Srivastava,bdey@example.org,7317810801,Telangana,2026-03-04,ACTIVE
+C0013,Darsh,Murthy,nandinibhargava@example.org,0647468723,Telangana,2026-04-28,ACTIVE
+C0014,Balveer,Bumb,bedivansha@example.net,0812191361,Maharashtra,2026-05-03,ACTIVE
+C0015,Harish,Borah,uvirk@example.com,5346247510,Telangana,2024-11-30,ACTIVE
+C0016,Hemang,Desai,yashawinilanka@example.org,1354278498,Tamil Nadu,2024-07-24,INACTIVE
+C0017,Chaitanya,Aggarwal,jack18@example.org,4935348740,Kerala,2026-04-05,INACTIVE
+C0018,Qushi,Datta,kalpit42@example.net,8680112805,Tamil Nadu,2025-01-22,ACTIVE
+C0019,Praneel,Natarajan,morarjanya@example.org,3315869232,Delhi,2024-11-15,ACTIVE
+C0020,Falguni,Mallick,rkothari@example.org,6073375433,Kerala,2026-01-26,ACTIVE
+C0021,Dipta,Sarin,mallickindali@example.net,8501429401,Tamil Nadu,2024-10-02,ACTIVE
+C0022,Yashica,More,rajanranveer@example.com,6088356159,Telangana,2026-05-21,ACTIVE
+C0023,Bhavini,Kade,znarain@example.net,8236629946,Tamil Nadu,2025-07-17,ACTIVE
+C0024,Rushil,Din,dnagy@example.com,3872148951,Maharashtra,2024-10-29,ACTIVE
+C0025,Patrick,Vasa,batrayash@example.com,7693676320,Karnataka,2025-07-27,ACTIVE
+C0026,Nathan,Soman,jbedi@example.org,7278895798,Karnataka,2024-09-23,ACTIVE
+C0027,Lakshit,Dora,wlad@example.org,8734714345,Delhi,2024-09-10,ACTIVE
+C0028,Lajita,Sood,leeladua@example.net,1665876036,Kerala,2024-10-29,ACTIVE
+C0029,Noah,Sibal,pandeychanchal@example.com,8893734670,Kerala,2024-07-25,ACTIVE
+C0030,Ladli,Mall,aviramesh@example.net,1627204653,Karnataka,2025-04-24,INACTIVE
+C0031,Jonathan,Solanki,fkrishnan@example.com,8053100330,Telangana,2024-10-24,ACTIVE
+C0032,Mekhala,Issac,kamdarudyati@example.net,5299124190,Delhi,2025-09-12,ACTIVE
+C0033,Vrishti,Cherian,kibeharsh@example.net,9190586518,Karnataka,2024-04-21,ACTIVE
+C0034,Gabriel,Mallick,opathak@example.com,6284987769,Telangana,2025-06-26,ACTIVE
+C0035,Advaith,Varughese,wkohli@example.com,5075273545,Tamil Nadu,2026-01-06,ACTIVE
+C0036,Jyoti,Solanki,frederickkhurana@example.net,7837770143,Karnataka,2024-10-08,INACTIVE
+C0037,Aradhana,Vohra,pavani85@example.com,4443135182,Maharashtra,2024-10-21,INACTIVE
+C0038,Advik,Mane,harish34@example.org,2408240084,Karnataka,2025-11-12,ACTIVE
+C0039,Daksha,Chada,csrinivas@example.com,0471167190,Karnataka,2024-07-09,ACTIVE
+C0040,Sarthak,Kakar,jagatsaha@example.net,8677496499,Delhi,2024-12-20,INACTIVE
+C0041,Vivaan,Lalla,finn23@example.org,2067974034,Kerala,2025-06-28,ACTIVE
+C0042,Daksha,Rau,pavanicontractor@example.net,2421024994,Karnataka,2026-03-22,INACTIVE
+C0043,Banjeet,Gill,xiti87@example.com,9065940139,Tamil Nadu,2024-06-28,ACTIVE
+C0044,Nisha,Tandon,pvenkataraman@example.com,2967175655,Tamil Nadu,2026-03-07,ACTIVE
+C0045,Janaki,Tara,nandini80@example.com,5451680876,Delhi,2025-06-04,ACTIVE
+C0046,Girik,Kar,nbehl@example.com,4771093248,Maharashtra,2025-07-16,INACTIVE
+C0047,Yashoda,Deshpande,shenoyjacob@example.net,7484677378,Kerala,2025-11-26,ACTIVE
+C0048,Krishna,Shah,majumdaroeshi@example.com,0449972787,Delhi,2024-08-02,ACTIVE
+C0049,Harish,Sarraf,ranbir39@example.com,6057662702,Delhi,2025-02-07,ACTIVE
+C0050,Vinaya,Banik,voratanmayi@example.org,6217459615,Delhi,2025-08-27,ACTIVE
+C0051,Raagini,Dhingra,keerbhavna@example.org,6117240050,Telangana,2025-05-22,ACTIVE
+C0052,Aditya,Shroff,nishagole@example.org,1969379237,Maharashtra,2026-08-07,ACTIVE
+C0053,Chakrika,Merchant,nakul17@example.com,6474367136,Kerala,2024-06-21,ACTIVE
+C0054,Dayamai,Sastry,randhawaanvi@example.org,9743953394,Kerala,2026-04-24,ACTIVE
+C0055,Chakrika,Nigam,patlakaran@example.org,5623285884,Delhi,2025-03-09,ACTIVE
+C0056,Lakshmi,Prabhu,sidhufaqid@example.org,6851604817,Karnataka,2025-07-24,ACTIVE
+C0057,Gunbir,Keer,kaururishilla@example.org,9317461200,Kerala,2024-06-04,ACTIVE
+C0058,Warinder,Patil,lipikasetty@example.com,9261796405,Kerala,2025-09-13,INACTIVE
+C0059,Samesh,Biswas,pillaijagrati@example.org,4317139005,Tamil Nadu,2026-04-18,ACTIVE
+C0060,Wazir,Naik,tarakkaul@example.com,9042284210,Telangana,2025-12-08,ACTIVE
+C0061,Caleb,Verma,ghoshalka@example.org,6811775891,Karnataka,2024-02-23,ACTIVE
+C0062,Ekta,Raj,tara00@example.com,6177115921,Tamil Nadu,2024-07-22,INACTIVE
+C0063,Prisha,Munshi,sudiksha89@example.com,1836736576,Tamil Nadu,2024-06-23,ACTIVE
+C0064,Nirja,Pandya,kavya27@example.org,1161528098,Karnataka,2024-10-04,INACTIVE
+C0065,Arya,Kara,sbehl@example.net,5198327315,Kerala,2026-02-22,ACTIVE
+C0066,Azaan,Chand,mbal@example.net,0244550229,Kerala,2024-02-29,INACTIVE
+C0067,Anita,Savant,krishasaini@example.com,2545991022,Karnataka,2025-02-04,ACTIVE
+C0068,Thomas,Rana,msunder@example.com,4381561497,Delhi,2025-09-25,INACTIVE
+C0069,Xiti,Pandya,amblesamarth@example.com,2445107622,Delhi,2024-10-14,ACTIVE
+C0070,Onveer,Sharma,ranganathanbrijesh@example.com,7159696641,Maharashtra,2025-02-27,INACTIVE
+C0071,Yashvi,Hari,gaurang61@example.org,9681645352,Tamil Nadu,2025-11-30,ACTIVE
+C0072,Ekantika,Mutti,indali23@example.org,4329212779,Tamil Nadu,2025-08-29,ACTIVE
+C0073,Bhavini,Bose,riabir@example.com,4490581477,Kerala,2025-01-20,ACTIVE
+C0074,Yamini,Gera,tripathileena@example.com,7935978207,Kerala,2025-12-28,ACTIVE
+C0075,Libni,Mander,kotaraksha@example.com,5546659051,Tamil Nadu,2024-08-16,ACTIVE
+C0076,Pallavi,Trivedi,mason51@example.net,5462914865,Karnataka,2026-06-02,ACTIVE
+C0077,Gayathri,Deep,andrew54@example.org,5733221418,Telangana,2026-05-30,ACTIVE
+C0078,Upasna,Hari,kdube@example.org,7065379473,Telangana,2024-09-24,INACTIVE
+C0079,Fiyaz,Dyal,ridhi74@example.com,2392407581,Karnataka,2025-02-04,ACTIVE
+C0080,Udarsh,Bala,shivani82@example.com,3750606853,Delhi,2025-01-03,INACTIVE
+C0081,Pallavi,Choudhry,hardik52@example.org,4727790104,Karnataka,2024-05-29,INACTIVE
+C0082,Bishakha,Sanghvi,wazir41@example.org,6971179808,Maharashtra,2026-01-28,ACTIVE
+C0083,Caleb,Ram,panditwridesh@example.net,2185188888,Tamil Nadu,2024-10-05,INACTIVE
+C0084,Krishna,Bhatnagar,zehaan05@example.org,3195205852,Telangana,2025-06-03,INACTIVE
+C0085,Champak,Narula,sbansal@example.org,3054868740,Maharashtra,2024-03-09,ACTIVE
+C0086,Pranit,Memon,jeet56@example.com,6527758416,Delhi,2024-10-10,ACTIVE
+C0087,Dakshesh,Borde,harshil15@example.net,4796275705,Tamil Nadu,2025-06-24,ACTIVE
+C0088,Mitesh,Sengupta,gpatla@example.net,0297021355,Tamil Nadu,2025-11-29,ACTIVE
+C0089,Jacob,Lala,kamya71@example.net,8565431027,Karnataka,2025-02-07,INACTIVE
+C0090,Bina,Mital,sanaya39@example.com,3121727155,Karnataka,2025-06-04,ACTIVE
+C0091,Gabriel,Bhatti,owenpathak@example.net,1323705895,Telangana,2025-04-24,ACTIVE
+C0092,Kai,Sant,mitali78@example.com,9125177852,Tamil Nadu,2025-05-14,ACTIVE
+C0093,Chavvi,Walla,dashzarna@example.org,2253584143,Tamil Nadu,2024-10-12,ACTIVE
+C0094,Omaja,Balasubramanian,thakkarom@example.net,2995900109,Tamil Nadu,2024-06-30,ACTIVE
+C0095,Maanas,Munshi,pmann@example.com,3647102767,Karnataka,2025-06-20,INACTIVE
+C0096,Omya,Kothari,hemani62@example.com,5371473210,Maharashtra,2026-01-04,INACTIVE
+C0097,Ira,Bava,falakmunshi@example.org,7877470168,Tamil Nadu,2026-02-23,INACTIVE
+C0098,Robert,Patil,mandawarda@example.net,4801624565,Tamil Nadu,2025-07-07,ACTIVE
+C0099,Yashodhara,Ratti,ethan68@example.com,9912165585,Maharashtra,2025-10-22,INACTIVE
+C0100,Chandani,Nayar,bathbalvan@example.org,7872982595,Delhi,2024-07-23,INACTIVE
+C0101,Varsha,Garde,emistry@example.org,5169409749,Karnataka,2026-01-28,ACTIVE
+C0102,Urishilla,Bhatia,rdivan@example.org,9130756263,Karnataka,2026-06-12,ACTIVE
+C0103,Rehaan,Koshy,zilmiljohal@example.net,7865278585,Delhi,2025-09-23,ACTIVE
+C0104,Madhav,Mannan,chanchal34@example.com,7575844198,Tamil Nadu,2024-12-20,INACTIVE
+C0105,Xavier,Bedi,manifarhan@example.com,4733848421,Kerala,2024-03-20,ACTIVE
+C0106,Bhavika,Bhargava,virajben@example.org,5712082677,Tamil Nadu,2025-03-08,ACTIVE
+C0107,Bhavani,Sha,katabaljiwan@example.org,2067240049,Karnataka,2026-06-01,ACTIVE
+C0108,Nidra,Sane,gdesai@example.com,3152742054,Delhi,2024-03-11,ACTIVE
+C0109,Advay,Lal,gabriel61@example.org,7530463745,Maharashtra,2026-04-10,ACTIVE
+C0110,Suhani,Prakash,warinder01@example.com,2684145933,Kerala,2024-12-10,ACTIVE
+C0111,Samaksh,Yadav,wsinha@example.net,3918785191,Kerala,2026-05-19,INACTIVE
+C0112,Dalbir,Shere,niteshnarang@example.net,1397187072,Delhi,2024-12-21,ACTIVE
+C0113,Pranit,Deshmukh,anthony64@example.org,9106518017,Telangana,2026-01-13,ACTIVE
+C0114,Arin,Misra,yprasad@example.com,6182512868,Karnataka,2025-11-12,INACTIVE
+C0115,Ekalinga,Chaudhuri,isamra@example.com,3752431069,Karnataka,2024-09-22,ACTIVE
+C0116,Ekani,Khalsa,sekhonchanakya@example.org,6738302843,Maharashtra,2025-09-21,ACTIVE
+C0117,Omaja,Rege,luke83@example.com,4089268705,Tamil Nadu,2025-04-28,ACTIVE
+C0118,Xavier,Kumer,charitapuri@example.org,3342708668,Tamil Nadu,2025-02-06,ACTIVE
+C0119,Teerth,Srinivas,gangabrar@example.com,1830469901,Kerala,2025-11-12,ACTIVE
+C0120,Jagrati,Morar,gaurangimitter@example.org,3173936385,Telangana,2026-06-01,ACTIVE
+C0005,Adya,Sangha,AZADMUTTI@EXAMPLE.COM,1395376724,Kerala,2025-06-04,ACTIVE

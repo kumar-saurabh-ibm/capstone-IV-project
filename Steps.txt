@@ -1,0 +1,3 @@
+step 1 : conda environment creation and activation
+step 2 : installing packages from "requirements.txt" using "pip install -r requirements.txt"
+step 3 : Source data generation (run ./src/generate_data.py)
