@@ -1,4 +1,8 @@
 step 1 : conda environment creation and activation
 step 2 : installing packages from "requirements.txt" using "pip install -r requirements.txt"
 step 3 : Source data generation (run ./src/generate_data.py) - review the minor change in the code
-step 4 : 
+Step 4 : Run run_pipeline.py to generate all the necessary layer
+step 4.1 : Create Bronze DB : create_bronze_db(SOURCE, bronze_con)
+        SOURCE = the source data location
+        bronze_con = connection to the bronze database
+Step 4.2 : Silver Data Generation -> Refer code implementation
