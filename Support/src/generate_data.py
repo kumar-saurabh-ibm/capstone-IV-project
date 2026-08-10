@@ -8,7 +8,7 @@ fake = Faker("en_IN")
 random.seed(42)
 Faker.seed(42)
 
-BASE = Path(__file__).resolve().parents[2] / "data" / "source"
+BASE = Path(__file__).resolve().parents[1] / "data" / "source" # parents[2] moves to the parent directory
 BASE.mkdir(parents=True, exist_ok=True)
 
 N_CUSTOMERS = 120
