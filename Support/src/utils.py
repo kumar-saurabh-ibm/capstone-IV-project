@@ -687,7 +687,12 @@ def clean_payments(
         # orders.order_id
         # ==========================================================
 
-        existing_orders = pd.read_sql('select order_id from orders', silver_con)
+        existing_orders = silver_connection.execute(
+                    """
+                    SELECT order_id
+                    FROM orders
+                    """
+                ).fetchdf()
 
         existing_order_ids = set(
             existing_orders["order_id"]
@@ -696,7 +701,6 @@ def clean_payments(
             .str.upper()
         )
         
-        print("Existing order IDs : ", existing_orders)
 
         invalid_order_fk_mask = (
             df["order_id"].notna()
@@ -969,12 +973,12 @@ def clean_web_events(
 
         df.loc[
             ~df["event_type"].isin(
-                ['LOGIN', 'PRODUCT_VIEW', 'CART', 'SEARCH']
+                ['LOGIN', 'PRODUCT_VIEW', 'CART', 'SEARCH', 'PAGE_VIEW']
             ),
             "rejection_reason"
         ] += (
             "event_type not in "
-            "['LOGIN', 'PRODUCT_VIEW', 'CART', 'SEARCH']; "
+            "['LOGIN', 'PRODUCT_VIEW', 'CART', 'SEARCH', 'PAGE_VEIW']; "
         )
 
         # ==========================================================
@@ -1285,12 +1289,12 @@ def clean_customer_support(
 
         df.loc[
             ~df["category"].isin(
-                ['PRODUCT', 'ACCOUNT', 'DELIVERY']
+                ['PRODUCT', 'ACCOUNT', 'DELIVERY', 'PAYMENT']
             ),
             "rejection_reason"
         ] += (
             "category not in "
-            "['PRODUCT', 'ACCOUNT', 'DELIVERY']; "
+            "['PRODUCT', 'ACCOUNT', 'DELIVERY', 'PAYMENT']; "
         )
 
         # ==========================================================
